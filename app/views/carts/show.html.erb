@@ -3,6 +3,8 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
+  
+  <% if cart.present? %>
 
   <div class="panel panel-default items">
     <table class="table table-bordered">
@@ -49,5 +51,13 @@
       <% end %>
     </div>
   </div>
+
+  <% else %>
+    <div class="alert alert-danger">
+      <strong>
+        <%= link_to "Get some items and come back here :D", '/' %>
+      </strong>
+    </div>
+  <% end %>
 
 </section>
