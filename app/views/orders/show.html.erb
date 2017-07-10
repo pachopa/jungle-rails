@@ -25,13 +25,12 @@
             TOTAL:
           </th>
           <th>
-           <%= @order.total_cents/100.round(1) %>
+           $<%= @order.total %>
           </th>
         </tr>
       </tfoot>
     </table>
   </div>
-
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
