@@ -74,9 +74,30 @@ main section.categories-show {
     }
   }
 }
+.productReview {
+  margin-left: 80px;
+
+}
+
+.starRating {
+  color: green;
+  font-size: 20px;
+}
+
+.reviewForm {
+  width: 40%;
+  height: 100px;
+}
+
+.reviewDescription {
+  margin-top: 20px;
+}
+
+.name {
+  line-height: 50px;
+}
 
 main section.products-show {
-
   .product-detail {
     img.main-img {
       max-width: 100%;
